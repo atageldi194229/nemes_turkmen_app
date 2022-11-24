@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:nemes/data/models/app_data_model.dart';
 import 'package:nemes/data/repositories/app_repository.dart';
+import 'package:nemes/presentation/components/custom_app_bar.dart';
 import 'package:nemes/presentation/constants/contants.dart';
-import 'package:nemes/presentation/pages/translations_page.dart';
+import 'package:nemes/presentation/pages/translation_page/translations_page.dart';
 
 class HomePage extends HookWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -12,8 +13,9 @@ class HomePage extends HookWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          title: const Text("Nemes dilini öwren! Offline"),
+        appBar: const CustomAppBar(
+          title: "Nemes dilini öwren! Offline",
+          enableCancel: false,
         ),
         body: Padding(
           padding: const EdgeInsets.all(defaultPadding),

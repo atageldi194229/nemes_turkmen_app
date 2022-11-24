@@ -12,6 +12,7 @@ class App extends StatelessWidget {
       title: "Nemes dilini öwren! Offline",
       debugShowCheckedModeBanner: false,
       home: HomePage(),
+      // initialRoute: HomePage(),
     );
   }
 }
