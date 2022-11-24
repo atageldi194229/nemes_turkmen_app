@@ -2,6 +2,7 @@
     "categories": [
         {
             "name": "Elipbiý",
+            "image": "assets/img/1.jpg",
             "translations": [
                 {
                     "sentence": "A",
@@ -152,6 +153,7 @@
         },
         {
             "name": "Salamlaşmak",
+            "image": "assets/img/2.png",
             "translations": [
                 {
                     "sentence": " Salam.",
@@ -287,6 +289,7 @@
         },
         {
             "name": "Gürrüňdeşlik",
+            "image": "assets/img/3.jpeg",
             "translations": [
                 {
                     "sentence": "Hawa.",
@@ -487,6 +490,7 @@
         },
         {
             "name": "Sanlar",
+            "image": "assets/img/4.png",
             "translations": [
                 {
                     "sentence": "0",
@@ -732,6 +736,7 @@
         },
         {
             "name": "Wagt",
+            "image": "assets/img/5.jpg",
             "translations": [
                 {
                     "sentence": "Sagat",
@@ -972,6 +977,7 @@
         },
         {
             "name": "Sene we Aýlar",
+            "image": "assets/img/6.jpg",
             "translations": [
                 {
                     "sentence": "Aý",
@@ -1072,6 +1078,7 @@
         },
         {
             "name": "Ugur",
+            "image": "assets/img/7.png",
             "translations": [
                 {
                     "sentence": "Ugur",
@@ -1317,6 +1324,7 @@
         },
         {
             "name": "Transport",
+            "image": "assets/img/8.jpeg",
             "translations": [
                 {
                     "sentence": "Uçar",
@@ -1447,6 +1455,7 @@
         },
         {
             "name": "Iýmit",
+            "image": "assets/img/9.jpg",
             "translations": [
                 {
                     "sentence": "Iýmit.",
@@ -1652,6 +1661,7 @@
         },
         {
             "name": "Kafe/restoran",
+            "image": "assets/img/10.jpg",
             "translations": [
                 {
                     "sentence": "Restoran.",
@@ -1832,6 +1842,7 @@
         },
         {
             "name": "Maşgala",
+            "image": "assets/img/11.jpeg",
             "translations": [
                 {
                     "sentence": "Maşgala.",
@@ -1997,6 +2008,7 @@
         },
         {
             "name": "Reňk",
+            "image": "assets/img/12.jpg",
             "translations": [
                 {
                     "sentence": "Reňk.",
@@ -2087,6 +2099,7 @@
         },
         {
             "name": "Diller we ýurtlar",
+            "image": "assets/img/13.jpg",
             "translations": [
                 {
                     "sentence": "Arabça",
@@ -2357,6 +2370,7 @@
         },
         {
             "name": "Haýwanlar",
+            "image": "assets/img/14.jpg",
             "translations": [
                 {
                     "sentence": "Haýwan.",
@@ -2492,6 +2506,7 @@
         },
         {
             "name": "Guşlar",
+            "image": "assets/img/15.jpg",
             "translations": [
                 {
                     "sentence": "Guş.",
@@ -2632,6 +2647,7 @@
         },
         {
             "name": "Bazarlamak",
+            "image": "assets/img/16.jpg",
             "translations": [
                 {
                     "sentence": "Supermarket.",
@@ -2917,6 +2933,7 @@
         },
         {
             "name": "Telefon",
+            "image": "assets/img/1.jpg",
             "translations": [
                 {
                     "sentence": "Telefon.",
@@ -3097,6 +3114,7 @@
         },
         {
             "name": "Söýgi we duşuşyk",
+            "image": "assets/img/18.jpg",
             "translations": [
                 {
                     "sentence": "Söýgi.",
@@ -3287,6 +3305,7 @@
         },
         {
             "name": "Beden agza",
+            "image": "assets/img/19.jpg",
             "translations": [
                 {
                     "sentence": "Beden.",
@@ -3467,6 +3486,7 @@
         },
         {
             "name": "Uçar menzili",
+            "image": "assets/img/20.jpg",
             "translations": [
                 {
                     "sentence": "Uçar..",
@@ -3692,6 +3712,7 @@
         },
         {
             "name": "Hassahana",
+            "image": "assets/img/21.png",
             "translations": [
                 {
                     "sentence": "Hassahana.",
@@ -3872,6 +3893,7 @@
         },
         {
             "name": "Adatdan daşary ýagdaýda",
+            "image": "assets/img/21.png",
             "translations": [
                 {
                     "sentence": "Meni ýaňy taladylar.",
@@ -3987,6 +4009,7 @@
         },
         {
             "name": "Güýmenje",
+            "image": "assets/img/23.jpg",
             "translations": [
                 {
                     "sentence": "Meniň iň gowy görýän işim...",
@@ -4142,6 +4165,7 @@
         },
         {
             "name": "Sport",
+            "image": "assets/img/24.jpg",
             "translations": [
                 {
                     "sentence": "Sportuň görnüşleri.",
@@ -4362,6 +4386,7 @@
         },
         {
             "name": "Bank",
+            "image": "assets/img/25.png",
             "translations": [
                 {
                     "sentence": "Bank.",
@@ -4617,6 +4642,7 @@
         },
         {
             "name": "Sypat",
+            "image": "assets/img/26.jpg",
             "translations": [
                 {
                     "sentence": "ajy",
@@ -5317,6 +5343,7 @@
         },
         {
             "name": "Kär, hünär",
+            "image": "assets/img/27.jpg",
             "translations": [
                 {
                     "sentence": "Iş.",
@@ -5511,7 +5538,8 @@
             ]
         },
         {
-            "name": "Howwa",
+            "name": "Howa",
+            "image": "assets/img/28.png",
             "translations": [
                 {
                     "sentence": "Pasyl.",

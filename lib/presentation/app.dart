@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Nemes dilini öwren!',
+      title: "Nemes dilini öwren! Offline",
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );

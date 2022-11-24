@@ -13,7 +13,7 @@ class HomePage extends HookWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("nemes"),
+          title: const Text("Nemes dilini öwren! Offline"),
         ),
         body: Padding(
           padding: const EdgeInsets.all(defaultPadding),
@@ -27,7 +27,7 @@ class HomePage extends HookWidget {
                     gridDelegate:
                         const SliverGridDelegateWithMaxCrossAxisExtent(
                       maxCrossAxisExtent: 200,
-                      childAspectRatio: 3 / 2,
+                      childAspectRatio: 5 / 4,
                       crossAxisSpacing: 20,
                       mainAxisSpacing: 20,
                     ),
@@ -44,15 +44,30 @@ class HomePage extends HookWidget {
                             ),
                           );
                         },
-                        child: Container(
-                          alignment: Alignment.center,
-                          decoration: BoxDecoration(
-                            color: Colors.amber,
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          child: Text(
-                            "${category.name} ${category.translations.length}",
-                          ),
+                        child: Column(
+                          children: [
+                            Expanded(
+                              child: Container(
+                                alignment: Alignment.center,
+                                decoration: BoxDecoration(
+                                  // color: Colors.amber,
+                                  borderRadius: BorderRadius.circular(15),
+                                  image: DecorationImage(
+                                    image: AssetImage(category.image),
+                                    fit: BoxFit.contain,
+                                  ),
+                                ),
+                                child: const Text(" "),
+                              ),
+                            ),
+                            const SizedBox(height: defaultPadding),
+                            Text(
+                              "${category.name} (${category.translations.length})",
+                              style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       );
                     });
