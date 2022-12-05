@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:nemes/data/models/category_model.dart';
@@ -40,13 +41,27 @@ class Body extends HookWidget {
                     ),
                   );
                 },
-                body: Padding(
-                  padding: const EdgeInsets.all(defaultPadding),
-                  child: Text(
-                    t.translation,
-                    textAlign: TextAlign.left,
-                    style: style,
-                  ),
+                body: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    if (t.audio != null)
+                      IconButton(
+                        onPressed: () async {
+                          final player = AudioPlayer();
+                          await player.play(AssetSource(t.audio!));
+                          // await player.setSource();
+                        },
+                        icon: const Icon(Icons.audio_file),
+                      ),
+                    Padding(
+                      padding: const EdgeInsets.all(defaultPadding),
+                      child: Text(
+                        t.translation,
+                        textAlign: TextAlign.left,
+                        style: style,
+                      ),
+                    ),
+                  ],
                 ),
                 isExpanded: selectedIndex.value == index,
               );

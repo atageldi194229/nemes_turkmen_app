@@ -1,21 +1,26 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
 class TranslationModel {
   final String sentence;
   final String translation;
+  final String? audio;
 
   TranslationModel({
     required this.sentence,
     required this.translation,
+    this.audio,
   });
 
   TranslationModel copyWith({
     String? sentence,
     String? translation,
+    String? audio,
   }) {
     return TranslationModel(
       sentence: sentence ?? this.sentence,
       translation: translation ?? this.translation,
+      audio: audio ?? this.audio,
     );
   }
 
@@ -23,6 +28,7 @@ class TranslationModel {
     return <String, dynamic>{
       'sentence': sentence,
       'translation': translation,
+      'audio': audio,
     };
   }
 
@@ -30,6 +36,7 @@ class TranslationModel {
     return TranslationModel(
       sentence: map['sentence'] as String,
       translation: map['translation'] as String,
+      audio: map['audio'] != null ? map['audio'] as String : null,
     );
   }
 
@@ -40,15 +47,17 @@ class TranslationModel {
 
   @override
   String toString() =>
-      'Translation(sentence: $sentence, translation: $translation)';
+      'TranslationModel(sentence: $sentence, translation: $translation, audio: $audio)';
 
   @override
   bool operator ==(covariant TranslationModel other) {
     if (identical(this, other)) return true;
 
-    return other.sentence == sentence && other.translation == translation;
+    return other.sentence == sentence &&
+        other.translation == translation &&
+        other.audio == audio;
   }
 
   @override
-  int get hashCode => sentence.hashCode ^ translation.hashCode;
+  int get hashCode => sentence.hashCode ^ translation.hashCode ^ audio.hashCode;
 }
