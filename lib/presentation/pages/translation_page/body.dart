@@ -1,5 +1,8 @@
+import 'dart:typed_data';
+
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:nemes/data/models/category_model.dart';
 import 'package:nemes/presentation/constants/contants.dart';
@@ -56,9 +59,15 @@ class Body extends HookWidget {
                     if (t.audio != null)
                       IconButton(
                         onPressed: () async {
+                          String audioasset = t.audio!;
+                          ByteData bytes = await rootBundle
+                              .load(audioasset); //load audio from assets
+                          Uint8List audiobytes = bytes.buffer.asUint8List(
+                              bytes.offsetInBytes, bytes.lengthInBytes);
+
                           final player = AudioPlayer();
-                          await player.setSource(AssetSource(t.audio!));
-                          await player.play(AssetSource(t.audio!));
+                          await player.setSourceBytes(audiobytes);
+                          await player.resume();
                         },
                         icon: const Icon(
                           Icons.audio_file,
