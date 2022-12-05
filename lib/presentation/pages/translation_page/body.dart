@@ -41,26 +41,30 @@ class Body extends HookWidget {
                     ),
                   );
                 },
-                body: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                body: Row(
                   children: [
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(defaultPadding),
+                        child: Text(
+                          t.translation,
+                          textAlign: TextAlign.left,
+                          style: style,
+                        ),
+                      ),
+                    ),
                     if (t.audio != null)
                       IconButton(
                         onPressed: () async {
                           final player = AudioPlayer();
+                          await player.setSource(AssetSource(t.audio!));
                           await player.play(AssetSource(t.audio!));
-                          // await player.setSource();
                         },
-                        icon: const Icon(Icons.audio_file),
+                        icon: const Icon(
+                          Icons.audio_file,
+                          color: Colors.blueAccent,
+                        ),
                       ),
-                    Padding(
-                      padding: const EdgeInsets.all(defaultPadding),
-                      child: Text(
-                        t.translation,
-                        textAlign: TextAlign.left,
-                        style: style,
-                      ),
-                    ),
                   ],
                 ),
                 isExpanded: selectedIndex.value == index,
