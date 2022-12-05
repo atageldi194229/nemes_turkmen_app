@@ -7,147 +7,147 @@
                 {
                     "sentence": "A",
                     "translation": "[a:]",
-                    "audio": "A.m4a"
+                    "audio": "assets/audio/A.m4a"
                 },
                 {
                     "sentence": "Ä",
                     "translation": "[e]",
-                    "audio": "Ä.m4a"
+                    "audio": "assets/audio/Ä.m4a"
                 },
                 {
                     "sentence": "B",
                     "translation": "[be:]",
-                    "audio": "B.m4a"
+                    "audio": "assets/audio/B.m4a"
                 },
                 {
                     "sentence": "C",
                     "translation": "[tse:]",
-                    "audio": "C.m4a"
+                    "audio": "assets/audio/C.m4a"
                 },
                 {
                     "sentence": "D",
                     "translation": "[de:]",
-                    "audio": "D.m4a"
+                    "audio": "assets/audio/D.m4a"
                 },
                 {
                     "sentence": "E",
                     "translation": "[e:]",
-                    "audio": "E.m4a"
+                    "audio": "assets/audio/E.m4a"
                 },
                 {
                     "sentence": "F",
                     "translation": "[ef]",
-                    "audio": "F.m4a"
+                    "audio": "assets/audio/F.m4a"
                 },
                 {
                     "sentence": "G",
                     "translation": "[ge:]",
-                    "audio": "G.m4a"
+                    "audio": "assets/audio/G.m4a"
                 },
                 {
                     "sentence": "H",
                     "translation": "[ha:]",
-                    "audio": "H.m4a"
+                    "audio": "assets/audio/H.m4a"
                 },
                 {
                     "sentence": "I",
                     "translation": "[i:]",
-                    "audio": "I.m4a"
+                    "audio": "assets/audio/I.m4a"
                 },
                 {
                     "sentence": "J",
                     "translation": "[ýot]",
-                    "audio": "J.m4a"
+                    "audio": "assets/audio/J.m4a"
                 },
                 {
                     "sentence": "K",
                     "translation": "[ka:]",
-                    "audio": "K.m4a"
+                    "audio": "assets/audio/K.m4a"
                 },
                 {
                     "sentence": "L",
                     "translation": "[el]",
-                    "audio": "<L.m4a"
+                    "audio": "assets/audio/<L.m4a"
                 },
                 {
                     "sentence": "M",
                     "translation": "[em]",
-                    "audio": "M.m4a"
+                    "audio": "assets/audio/M.m4a"
                 },
                 {
                     "sentence": "N",
                     "translation": "[en]",
-                    "audio": "N.m4a"
+                    "audio": "assets/audio/N.m4a"
                 },
                 {
                     "sentence": "O",
                     "translation": "[o:]",
-                    "audio": "O.m4a"
+                    "audio": "assets/audio/O.m4a"
                 },
                 {
                     "sentence": "Ö",
                     "translation": "[ö:]",
-                    "audio": "Ö.m4a"
+                    "audio": "assets/audio/Ö.m4a"
                 },
                 {
                     "sentence": "P",
                     "translation": "[pe:]",
-                    "audio": "P.m4a"
+                    "audio": "assets/audio/P.m4a"
                 },
                 {
                     "sentence": "Q",
                     "translation": "[ku:]",
-                    "audio": "Q.m4a"
+                    "audio": "assets/audio/Q.m4a"
                 },
                 {
                     "sentence": "R",
                     "translation": "[er]",
-                    "audio": "R.m4a"
+                    "audio": "assets/audio/R.m4a"
                 },
                 {
                     "sentence": "S",
                     "translation": "[es]",
-                    "audio": "S.m4a"
+                    "audio": "assets/audio/S.m4a"
                 },
                 {
                     "sentence": "T",
                     "translation": "[te:]",
-                    "audio": "T.m4a"
+                    "audio": "assets/audio/T.m4a"
                 },
                 {
                     "sentence": "U",
                     "translation": "[u:]",
-                    "audio": "U.m4a"
+                    "audio": "assets/audio/U.m4a"
                 },
                 {
                     "sentence": "Ü",
                     "translation": "[u umlaut]",
-                    "audio": "Ü.m4a"
+                    "audio": "assets/audio/Ü.m4a"
                 },
                 {
                     "sentence": "V",
                     "translation": "[fau]",
-                    "audio": "V.m4a"
+                    "audio": "assets/audio/V.m4a"
                 },
                 {
                     "sentence": "W",
                     "translation": "[we:]",
-                    "audio": "W.m4a"
+                    "audio": "assets/audio/W.m4a"
                 },
                 {
                     "sentence": "X",
                     "translation": "[iks]",
-                    "audio": "X.m4a"
+                    "audio": "assets/audio/X.m4a"
                 },
                 {
                     "sentence": "Y",
                     "translation": "[üpsilon]",
-                    "audio": "Y.m4a"
+                    "audio": "assets/audio/Y.m4a"
                 },
                 {
                     "sentence": "Z",
                     "translation": "[tset]",
-                    "audio": "Z.m4a"
+                    "audio": "assets/audio/Z.m4a"
                 }
             ]
         },
